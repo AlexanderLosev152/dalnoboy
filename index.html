@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="styles/style.css" />
     <title>dalnoboy</title>
   </head>
@@ -20,7 +25,9 @@
               до двери.Настолько прозрачных сделок с Китаем вы еще не
               осуществляли.
             </p>
-            <a class="header_text--btn" href="#">Узнать больше</a>
+            <a class="header_text--btn" href="#" target="_blank"
+              >Узнать больше</a
+            >
           </div>
           <img class="header__img" src="images/header__avto.jpg" alt="" />
         </div>
@@ -58,46 +65,57 @@
       <div class="container">
         <div class="sphere__wrap">
           <div class="sphere__info">
-            <h2 class="sphere__title title">
-              В какой сфере вы работаете?
-            </h2>
+            <h2 class="sphere__title title">В какой сфере вы работаете?</h2>
             <p>
-              Мы проводим опрос среди пользователей сайта, чтобы предоставить Вам информацию соответствующую сфере Вашей деятельности.
+              Мы проводим опрос среди пользователей сайта, чтобы предоставить
+              Вам информацию соответствующую сфере Вашей деятельности.
             </p>
             <form class="sphere__form" action="">
               <div class="sphere__form--item">
                 <div class="sphere__form--item_wrap">
-                  <input type="radio" name="sphere" id="label-1">
+                  <input type="radio" name="sphere" id="label-1" />
                   <label class="sphere__form--item__label" for="label-1">
                     <h3>Я работаю на произвостве</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
                   </label>
                 </div>
               </div>
               <div class="sphere__form--item">
                 <div class="sphere__form--item_wrap">
-                  <input type="radio" name="sphere" id="label-2">
+                  <input type="radio" name="sphere" id="label-2" />
                   <label class="sphere__form--item__label" for="label-2">
                     <h3>Я поставляю товары</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>       
-                  </label> 
-                </div>      
-              </div>                     
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </label>
+                </div>
+              </div>
               <div class="sphere__form--item">
                 <div class="sphere__form--item_wrap">
-                  <input type="radio" name="sphere" id="label-3">
+                  <input type="radio" name="sphere" id="label-3" />
                   <label class="sphere__form--item__label" for="label-3">
                     <h3>Я помогаю подобрать оборудование</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>   
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
                   </label>
-                </div>           
-              </div> 
+                </div>
+              </div>
             </form>
           </div>
           <div class="sphere__vote">
             <div class="sphere__vote_wrap">
               <h4 class="sphere__vote-title">Проголосовало:</h4>
-              <div class="sphere__vote-number"> 
+              <div class="sphere__vote-number">
                 <span>1107</span>
                 <p>пользователей</p>
               </div>
@@ -112,52 +130,137 @@
           <div class="about__shadow"></div>
           <div class="about__title--wrap">
             <h2 class="about__title title">
-              Почему с нами<br> выгоднее?
+              Почему с нами<br />
+              выгоднее?
             </h2>
           </div>
         </div>
         <ul class="about__items">
           <li class="about__item">
-            <img src="images/lock.png" alt="lock">
+            <img src="images/lock.png" alt="lock" />
             <div class="about__item--text">
               <h3>Lorem ipsum dolor sit amet</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod ut.
+              </p>
             </div>
           </li>
           <li class="about__item">
-            <img src="images/list.png" alt="list">
+            <img src="images/list.png" alt="list" />
             <div class="about__item--text">
               <h3>Lorem ipsum dolor sit amet</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod ut.
+              </p>
             </div>
           </li>
           <li class="about__item">
-            <img src="images/dollar.png" alt="dollar">
+            <img src="images/dollar.png" alt="dollar" />
             <div class="about__item--text">
               <h3>Lorem ipsum dolor sit amet</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod ut.
+              </p>
             </div>
           </li>
           <li class="about__item">
-            <img src="images/globus.png" alt="globus">
+            <img src="images/globus.png" alt="globus" />
             <div class="about__item--text">
               <h3>Lorem ipsum dolor sit amet</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod ut.
+              </p>
             </div>
           </li>
-        </ul>  
+        </ul>
       </div>
     </section>
     <section class="slider">
       <div class="container">
-        <h2 class="slider__title title">
-          Выполненные работы
-        </h2>
+        <h2 class="slider__title title">Выполненные работы</h2>
         <p class="slider__subtitle">
-          Мы собрали информацию по грузам, которые мы уже доставили.У нас специальный подход к каждому виду товаров.
+          Мы собрали информацию по грузам, которые мы уже доставили<br />У нас
+          специальный подход к каждому виду товаров.
         </p>
-        
+        <div class="my__swiper swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/slider__one.jpg" alt="Станки и оборудование" />
+              <div class="swiper-slide--text">
+                <h4>Станки и оборудование</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod ut.
+                </p>
+                <span>20 000 руб.</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/slider__two.jpg" alt="Компоненты и запчасти" />
+              <div class="swiper-slide--text">
+                <h4>Компоненты и запчасти</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod ut.
+                </p>
+                <span>18 000 руб.</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/slider__three.jpg" alt="Станки и оборудование" />
+              <div class="swiper-slide--text">
+                <h4>Станки и оборудование</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod ut.
+                </p>
+                <span>20 000 руб.</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/slider__one.jpg" alt="Станки и оборудование" />
+              <div class="swiper-slide--text">
+                <h4>Станки и оборудование</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod ut.
+                </p>
+                <span>20 000 руб.</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/slider__two.jpg" alt="Компоненты и запчасти" />
+              <div class="swiper-slide--text">
+                <h4>Компоненты и запчасти</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod ut.
+                </p>
+                <span>18 000 руб.</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/slider__three.jpg" alt="Станки и оборудование" />
+              <div class="swiper-slide--text">
+                <h4>Станки и оборудование</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod ut.
+                </p>
+                <span>20 000 руб.</span>
+              </div>
+            </div>            
+          </div>
+          <div class="swiper-pagination">
+        </div>
+        </div>
       </div>
     </section>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
