@@ -521,6 +521,7 @@ td {
 /* trust */
 
 .trust {
+  padding-bottom: 120px;
 }
 
 .trust__title {
@@ -561,4 +562,18 @@ td {
 }
 
 .trust__item--text p {
+}
+
+/* video  */
+
+.video {
+}
+.video__title {
+  padding-bottom: 32px;
+}
+.video__subtitle {
+  padding-bottom: 40px;
+}
+.video__content {
+  height: 621px;
 }
