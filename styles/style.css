@@ -326,3 +326,239 @@ body {
   justify-content: center;
   gap: 26px;
 }
+
+/* clients */
+
+.client {
+  margin: 120px 0;
+}
+
+.client__bg {
+  background: #0b7572;
+  height: 917px;
+  background-image: url("../images/hieroglyph.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.client__title {
+  color: #ffffff;
+  padding: 0px 0 570px 0px;
+}
+
+.client__wrap {
+  width: 660px;
+  background: #ffffff;
+}
+.client__wrap--info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 28px;
+}
+
+.client__wrap--info p {
+  max-width: 277px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+}
+
+.client__table {
+}
+
+.table {
+  background: #f9f9fb;
+  padding: 28px;
+}
+
+.thead {
+  background: #0b7572;
+  color: #ffffff;
+  height: 45px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.thead th {
+  padding: 15px 35px;
+}
+
+td {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 35px 7px;
+  text-align: left;
+}
+.reiting {
+  display: flex;
+}
+
+.table__img {
+  max-width: 100%;
+}
+
+.table__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 135%;
+  color: #000;
+  padding-bottom: 10px;
+}
+
+.table__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  color: #6b6b6c;
+  padding-bottom: 10px;
+}
+
+.table__tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 135%;
+  color: #363738;
+}
+
+.table__span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 135%;
+  color: #363738;
+}
+
+.table__adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  color: #6b6b6c;
+}
+
+/* logistic */
+
+.logistic {
+  margin-bottom: 120px;
+}
+
+.logistic__title {
+  margin-bottom: 28px;
+}
+
+.logistic__item--number {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 125%;
+  color: #ffffff;
+  background: #0b7572;
+  border: 4px solid #0b7572;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 50%;
+  width: 159px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.logistic__item {
+  display: flex;
+  align-items: center;
+}
+
+.logistic__item + .logistic__item {
+  margin-top: 24px;
+}
+
+.logistic__item--wrap {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 32px 132px 32px 96px;
+  margin-left: -39px;
+}
+
+.logistic__item--text {
+  padding-left: 56px;
+  position: relative;
+}
+
+.logistic__item--text h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 125%;
+  color: #363738;
+  padding-bottom: 24px;
+}
+
+.logistic__item--text h3::after {
+  content: url(../images/line__yellow.png);
+  position: absolute;
+  top: 24px;
+  left: 55px;
+  width: 0px;
+  background: #ffce50;
+}
+
+.logistic__item--text p {
+  padding-top: 24px;
+  color: #6b6b6c;
+}
+
+/* trust */
+
+.trust {
+}
+
+.trust__title {
+  margin-bottom: 90px;
+}
+
+.trust__items {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 80px;
+}
+.trust__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 195px;
+}
+
+.trust__item img {
+  padding-bottom: 32px;
+  display: block;
+  max-width: 100%;
+}
+
+.trust__item:hover img {
+  transform: scale(1.2);
+}
+
+.trust__item--text {
+
+}
+
+.trust__item--text h3 {
+  padding-bottom: 14px;
+}
+
+.trust__item--text p {
+}
