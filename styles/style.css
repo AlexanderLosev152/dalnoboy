@@ -533,6 +533,7 @@ td {
   text-align: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 80px;
+  position: relative;
 }
 .trust__item {
   display: flex;
@@ -553,20 +554,78 @@ td {
   transform: scale(1.2);
 }
 
-.trust__item--text {
+/*  */
 
+.data {
+  margin-bottom: 100px;
 }
 
-.trust__item--text h3 {
-  padding-bottom: 14px;
+.data__title {
+  padding-bottom: 48px;
 }
 
-.trust__item--text p {
+.data__wrap {
+  background: #f9f9fb;
+  border-radius: 5px;
+}
+
+.data__wrap--wpap {
+  padding: 48px 110px 48px 56px;
+}
+
+.data__wrap--wpap h3 {
+  padding-bottom: 16px;
+}
+
+.data__wrap--wpap p {
+  padding-bottom: 40px;
+}
+
+.data__wrap--tz {
+  display: flex;
+  gap: 16px;
+  padding-bottom: 40px;
+}
+
+.data__wrap--items {
+  display: flex;
+  gap: 16px;
+  padding-bottom: 80px;
+}
+
+.data__wrap--item img {
+  padding-bottom: 16px;
+}
+
+.data__wrap--item span {
+  text-decoration: underline;
+}
+
+.data__wrap--link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  background: #0b7572;
+  border-radius: 4px;
+  width: 248px;
+  height: 50px;
+  transition: 0.3s;
+}
+
+.data__wrap--link:hover {
+  color: #bfbfbf;
+  background: #0c8581;
 }
 
 /* video  */
 
 .video {
+  margin-bottom: 120px;
 }
 .video__title {
   padding-bottom: 32px;
@@ -575,5 +634,61 @@ td {
   padding-bottom: 40px;
 }
 .video__content {
-  height: 621px;
+  max-height: 720px;
+}
+
+/* workers */
+
+.workers {
+  margin-bottom: 130px;
+}
+
+.workers__title {
+  padding-bottom: 72px;
+}
+
+.workers__items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px 30px;
+}
+.workers__item {
+  border-left: 51px solid #0B7572;
+  width: 605px;
+  height: 210px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.workers__item:hover .workers__item--foto {
+  transform: scale(1.3);
+}
+
+.workers__item--foto {
+  padding-left: 32px;
+}
+
+.workers__item--df {
+  padding-left: 40px;
+  position: relative;
+}
+
+.workers__item--df h4 {
+  padding-bottom: 12px;
+}
+
+.workers__item--df span::after {
+  content: url(../images/line__yellow.png);
+  position: absolute;
+  top: 52px;
+  left: 40px;
+}
+
+.workers__item--social {
+  padding-top: 51px;
+  display: flex;
+  gap: 20px;
 }
